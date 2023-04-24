@@ -1,4 +1,4 @@
-# mymooc
+# online-mooc-web
 
 ## Project setup
 ```
