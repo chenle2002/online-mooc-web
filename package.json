@@ -1,0 +1,35 @@
+{
+  "name": "online-mooc-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "core-js": "^3.8.3",
+    "element-ui": "^2.15.12",
+    "vue": "^2.6.14",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^3.5.1",
+    "bq-static": "^1.1.6",
+    "vue-video-player": "^5.0.2",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "stylus": "^0.59.0",
+    "stylus-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
