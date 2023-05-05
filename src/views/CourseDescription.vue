@@ -59,7 +59,7 @@ export default {
     this.courseId = this.$route.query.courseId
 
     this.axios({
-      url: "product/teacher/getinfo",
+      url: "member/teacher/getinfo",
       params: {
         courseId: this.courseId
       },
@@ -70,7 +70,7 @@ export default {
       // console.log(this.dataList, 111)
     });
     this.axios({
-      url: "product/courserdes/info/des",
+      url: "course/courserdes/info/des",
       params: {
         courseId: this.courseId
       },
